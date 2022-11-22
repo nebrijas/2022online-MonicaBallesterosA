@@ -3,7 +3,7 @@
 
 ### [Salud con Lupa](https://saludconlupa.com/series/justicia-machista/los-agresores-de-mujeres-no-acatan-las-restricciones-impuestas-por-el-juez/ "Crónica sobre violencia de género")
 
-![Imágen sobre violencia de género](https://www.unwomen.org/sites/default/files/Headquarters/Images/Sections/What%20We%20Do/VAW/types-of-violence.png)
+![Imagen sobre violencia de género](https://www.unwomen.org/sites/default/files/Headquarters/Images/Sections/What%20We%20Do/VAW/types-of-violence.png)
 
 Es una noticia del medio ***Salud con Lupa*** escrita a modo de crónica, pero con una gran cantidad de datos, por lo que la información es completa y ejemplificada a través de diversos casos de violencia de género ocurridos en diferentes zonas de Perú. 
 
