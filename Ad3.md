@@ -2,7 +2,7 @@
 
 En esta celda empezaría la explicación del código scraping. Primero, importamos las librerías y ponemos el código fuente. 
 
-### [Archivo Python creado desde Jupyter:](https://github.com/nebrijas/2022online-MonicaBallesterosA/blob/86c6385da04492db5294bd480b427cb41ec9bd65/docs/AD3_Ballesteros_Angulo_M%C3%B3nica.ipynb)
+### [Archivo Python creado desde Jupyter:](docs/AD3_Ballesteros_Angulo_Mónica.ipynb)
 
 ## Código Fuente
 
