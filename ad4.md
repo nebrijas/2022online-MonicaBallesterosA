@@ -1,5 +1,7 @@
 # Uso De la API del Covid-19 con Pandas
 
+[Archivo Python creado desde Jupyter](docs/ad4_Ballesteros_Angulo_Mónica_Marcela.ipynb)
+
 Para la actividad dirigida número cuatro, planeada para Periodismo de Datos II, se utilizará Pandas. Una librería de Python con la que es posible manejar, analizar y procesar datos. En este caso, se tomarán datos sobre el Covid-19 para ejecutar Pandas.
 
 La URL que usaremos es: https://api.covid19api.com/countries
