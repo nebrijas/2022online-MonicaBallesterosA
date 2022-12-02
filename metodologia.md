@@ -22,7 +22,7 @@ Así mismo, para esta actividad se conoció la plataforma [GitHub](https://githu
 
 Con la ad1 logramos crear, por primera vez, un documento de extensión .md a través de GitHub. Además, cada estudiante creo una página web compuesta por las carpetas de cada una de las actividades que se desarrollaron durante este curso.
 
-Dando clic aquí es posible ver la ad1. 
+[Dando clic aquí es posible ver la ad1](https://github.com/nebrijas/2022online-MonicaBallesterosA/blob/c254b2e5aa189487bb1f372badfdec5ead1e2992/ad1.md)
 
 ## Actividad dirigida 2
 
@@ -34,7 +34,7 @@ Para esta ocasión analicé la noticia [Following the Science](https://pudding.c
 
 El comentario para la ad2 se basó en lo aprendido durantes las clases de Periodismo de Datos en cuál es la forma correcta de hacer visualizaciones y el uso de los datos para que estas plasmen correctamente el mensaje que se quiere dar al usuario. Debido a que el propósito se esta actividad era usar Markdown, he puesto tres asteriscos para separar cada una de las ideas de análisis. 
 
-Dando clic aquí es posible ver la ad2. 
+[Dando clic aquí es posible ver la ad2](https://github.com/nebrijas/2022online-MonicaBallesterosA/blob/c254b2e5aa189487bb1f372badfdec5ead1e2992/ad2.md)
 
 ## Actividad dirigida 3
 
@@ -74,7 +74,7 @@ Después, fue necesario crear y conocer el concepto de variable. En este caso, a
 
 Finalmente, con la librería **Beautiful Soup**, que contribuye a pulir los datos, se ejecutó la función `findAll` para los `h2`, pues así *El País* denomina sus titulares. Este proceso se realizó con la sección internacional, conociendo de antemano que era posible realizar la misma operación con secciones como deportes, salud, entre otras, 
 
-Dando clic aquí es posible ver la ad3. 
+[Dando clic aquí es posible ver la ad3](https://github.com/nebrijas/2022online-MonicaBallesterosA/blob/c254b2e5aa189487bb1f372badfdec5ead1e2992/ad3.md)
 
 ## Actividad dirigida 4
 
@@ -100,7 +100,9 @@ Más adelante en el código, se aprendió a crear **dataframes**, un marco de da
 
 Además, como se indicó al principio fue posible crear gráficas con la función `plot`. A continuación, dejo una imágen ejemplo de las gráficas creadas:
 
-Dando clic aquí es posible ver la ad4. 
+![Imagen sobre ad4](https://github.com/nebrijas/2022online-MonicaBallesterosA/blob/c254b2e5aa189487bb1f372badfdec5ead1e2992/output_101_1.png)
+
+[Dando clic aquí es posible ver la ad4](https://github.com/nebrijas/2022online-MonicaBallesterosA/blob/c254b2e5aa189487bb1f372badfdec5ead1e2992/ad4.md)
 
 
 ```python
