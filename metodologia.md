@@ -1,0 +1,108 @@
+# Metodología
+
+**Periodismo de Datos II:** Herramientas Digitales para la Visualización y Presentacion de Datos
+
+Durante la clase de **Periodismo de Datos II** hemos poidido reconocer diferentes métodos con los que es posible acercarse a nuevos niveles de la informática con los que es posible acceder a herramientas digitales de desarrollo web y de visualización de datos. 
+
+Con lo aprendido en la clase se han podido reforzar conocimientos que se aprendieron anteriormente en asignaturas como **Programación**. Además, se ahondó en aquellos temas que pueden ser relevantes para la visualización de datos y lo que hay detrás de los mismos (*HTML*, Python, entre otros lenguajes). 
+
+A continuación, como trabajo final de la materia, se hace una recopilación del cómo fue posible realizar cada una de las ctividades dirigidas siguiendo los pasos de una programación literaria. Es decir, un archivo que combine bloques de texto en Markdown y código de Python. 
+
+## Actividad dirigida 1
+
+La primera actividad de la asignatura involucró la escritura de un comentario crítico sobre un reportaje o noticia que contubiera visualización de datos. A través de máximo 500 palabras cada estudiante analizó la noticia o artículo que le fuera de interés para la clase con conocimientos adquiridos de la asignatura de **Periodismo de Datos I**.
+
+Para hacer correcta entrega de la también nombrada ad1, fue necesario realizar el comentario a través del editor de texto o "pad" que nos permitió escribir la crítica de forma colaborativa. Es decir, que todas las personad de la clase ponían su nombre en el mismo editor junto a su comentario. Este editor se llama *Riseup*. 
+
+La parte retadora de la actividad fue involucrar a la crítica el tipo de escritura **Markdown**, un lenguaje que se pude asociar al "código fuente" de un texto. Este tipo de lengujae se utiliza, sobretodo, para realizar páginas web, cuadernos de Python y algunos gráficos de tipo interactivos.
+
+A través de Markdown fue posible conocer, por ejemplo, como realizar encabezados de primer, segundo y tercer nivel con numerales (#), poner negritas con asteríscos, como subir imágenes y como enlazar textos. 
+
+Así mismo, para esta actividad se conoció la plataforma [GitHub](https://github.com/), la cual, permite el desarrollo colaborativo de diversos proyectos, aloja proyectos en un servidor y crea códigos fuentes, es decir, que desde GitHub también es posible, por ejemplo, escrbir en lenguaje Markdown. 
+
+Con la ad1 logramos crear, por primera vez, un documento de extensión .md a través de GitHub. Además, cada estudiante creo una página web compuesta por las carpetas de cada una de las actividades que se desarrollaron durante este curso.
+
+Dando clic aquí es posible ver la ad1. 
+
+## Actividad dirigida 2
+
+Nuevamente, para esta actividad fue necesario crear un comentario de un artículo de periodismo de datos desde el cual se pudieran apreciar diversas visualizaciones. Para ello fue recomendada la página [*From data to viz*](https://www.data-to-viz.com), la cual plantea cuál sería la gráfica más adecuada de armar dependiendo la información que se tenga al respecto. 
+
+Al igual que la ad1, esta actividad también fue escrita en Markdown y subido al repositorio de GitHub. Para esta ocasión, ya se tenía más confianza con el editor de GitHub, por lo que fue posible resolver varias dudas autonomamente como el procedimiento para enlazar correctamente una palabra. 
+
+Para esta ocasión analicé la noticia [Following the Science](https://pudding.cool/2021/03/covid-science/), la cual, tenía como base **hablar sobre el empuje de la investigación global que se realizó hasta el año pasado para combatir la pandemia por el Covid-19**.
+
+El comentario para la ad2 se basó en lo aprendido durantes las clases de Periodismo de Datos en cuál es la forma correcta de hacer visualizaciones y el uso de los datos para que estas plasmen correctamente el mensaje que se quiere dar al usuario. Debido a que el propósito se esta actividad era usar Markdown, he puesto tres asteriscos para separar cada una de las ideas de análisis. 
+
+Dando clic aquí es posible ver la ad2. 
+
+## Actividad dirigida 3
+
+Para la realización de esta actividad ya nos adentramos más en lenguajes programáticos como Python. Allí, fue necesario lograr el *scraping* de una web, pero, además de hacer que el código funcionara correctamente, era necesario explicar cada función de forma literaria. 
+
+*Scraping* significa el poder extraer datos de una web y por ello, fue necesario profundizar en varios conocimientos nuevos y otros que se había aprendido en la asignatura de **Programación** para que, mediante herramientas como Jupyter de Anacando, fuera posible realizar el ejercicio. 
+
+Teniendo en cuenta lo anterior, lo primero que se hizo fue instalar en cada ordenador [Anaconda](https://www.anaconda.com/). Una este estuviera en el equipo de cada estudiante se conoció el funcionamiento de la herramienta Jupyter. Este, es un cuaderno es una aplicación web que permite generar cuadernos de Python y Markdown. Además, permite corroborar el correcto funcionamiento de los lenguajes. 
+
+El *scraping* con el que se conoció a fonfo Jupyter tuvo que ver con el diario español *El País*. La idea era encontrar el resultado mejor posicionado en dicha web, dependiendo la búsqueda que se hacía en ella y basándose en los `tags` que se usan al momento de publicr contenido en un medio de comunicación. 
+
+Lo que consideré más importante y lo que me llevó más tiempo de investigación fue el descargue de las liberías, las cuales, permiten que el código se desenenvuelva correctamente. Además, era el primer paso del *scraping*, por lo que era fundamental instalarlas correctamente a través de Jupyter. A continuación el cómo se instalaron las librerías:
+
+
+```python
+pip install requests bs4 pandas termcolor
+```
+
+    Requirement already satisfied: requests in c:\users\usuario\anaconda3\lib\site-packages (2.28.1)
+    Requirement already satisfied: bs4 in c:\users\usuario\anaconda3\lib\site-packages (0.0.1)
+    Requirement already satisfied: pandas in c:\users\usuario\anaconda3\lib\site-packages (1.4.4)
+    Requirement already satisfied: termcolor in c:\users\usuario\anaconda3\lib\site-packages (2.1.1)
+    Requirement already satisfied: charset-normalizer<3,>=2 in c:\users\usuario\anaconda3\lib\site-packages (from requests) (2.0.4)
+    Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\users\usuario\anaconda3\lib\site-packages (from requests) (1.26.11)
+    Requirement already satisfied: certifi>=2017.4.17 in c:\users\usuario\anaconda3\lib\site-packages (from requests) (2022.9.14)
+    Requirement already satisfied: idna<4,>=2.5 in c:\users\usuario\anaconda3\lib\site-packages (from requests) (3.3)
+    Requirement already satisfied: beautifulsoup4 in c:\users\usuario\anaconda3\lib\site-packages (from bs4) (4.11.1)
+    Requirement already satisfied: python-dateutil>=2.8.1 in c:\users\usuario\anaconda3\lib\site-packages (from pandas) (2.8.2)
+    Requirement already satisfied: numpy>=1.18.5 in c:\users\usuario\anaconda3\lib\site-packages (from pandas) (1.21.5)
+    Requirement already satisfied: pytz>=2020.1 in c:\users\usuario\anaconda3\lib\site-packages (from pandas) (2022.1)
+    Requirement already satisfied: six>=1.5 in c:\users\usuario\anaconda3\lib\site-packages (from python-dateutil>=2.8.1->pandas) (1.16.0)
+    Requirement already satisfied: soupsieve>1.2 in c:\users\usuario\anaconda3\lib\site-packages (from beautifulsoup4->bs4) (2.3.1)
+    Note: you may need to restart the kernel to use updated packages.
+    
+
+Después, fue necesario crear y conocer el concepto de variable. En este caso, a la variable se le llamó resultado, sin embargo, teniendo en cuenta que esta puede cambiar, podía tener el nombre que se quisiera. El paso siguiente fue indicar que se requería de un `(requests.get)`, una función que permite arrastrar los resultados de *El País*. 
+
+Finalmente, con la librería **Beautiful Soup**, que contribuye a pulir los datos, se ejecutó la función `findAll` para los `h2`, pues así *El País* denomina sus titulares. Este proceso se realizó con la sección internacional, conociendo de antemano que era posible realizar la misma operación con secciones como deportes, salud, entre otras, 
+
+Dando clic aquí es posible ver la ad3. 
+
+## Actividad dirigida 4
+
+La última actividad de la asignatura fue una de las más interesantes pues fue posible conocer como se extraen y visualizan datos de una web. En ella pudimos conocer formas, a través de las programación, del cómo visualizar los datos de una tabla con una gran cantidad de variables. 
+
+Esta actividad consistió en conectar desde Jupyter a la **API de datos del COVID19**. La mayor parte de este ejercicio fue explicado en clase. Allí pudimos ver el trabajo que se puede hacer con la librería Pandas de Python. Al igual que con la actividad anterior, se realizó una explicación literaría de cada una de las funciones necesarias para desarrollar el código correctamente. 
+
+Teniendo en cuenta que Pandas era la librería principal, el primer paso fue instalarla. Se creo una breveación para llamarla y después se creo la variable `miurl`. Este último era importante para que Pandas detectara de donde sacar la información que después se solicitaría. A continuación se muestra el cómo instalar la librería:
+
+
+```python
+!pip install pandas
+```
+
+    Requirement already satisfied: pandas in c:\users\usuario\anaconda3\lib\site-packages (1.4.4)
+    Requirement already satisfied: python-dateutil>=2.8.1 in c:\users\usuario\anaconda3\lib\site-packages (from pandas) (2.8.2)
+    Requirement already satisfied: numpy>=1.18.5 in c:\users\usuario\anaconda3\lib\site-packages (from pandas) (1.21.5)
+    Requirement already satisfied: pytz>=2020.1 in c:\users\usuario\anaconda3\lib\site-packages (from pandas) (2022.1)
+    Requirement already satisfied: six>=1.5 in c:\users\usuario\anaconda3\lib\site-packages (from python-dateutil>=2.8.1->pandas) (1.16.0)
+    
+
+Más adelante en el código, se aprendió a crear **dataframes**, un marco de datos que sirve para organizar la información. Los dataframes se pueden explorar de diversas maneras con las funciones correctas. Por ejemplo, para ver el inicio de la tabala extraida en la actividad se podía ver con la función `head` y para ver el final, con la función `tail`. 
+
+Además, como se indicó al principio fue posible crear gráficas con la función `plot`. A continuación, dejo una imágen ejemplo de las gráficas creadas:
+
+Dando clic aquí es posible ver la ad4. 
+
+
+```python
+
+```
