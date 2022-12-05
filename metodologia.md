@@ -110,4 +110,6 @@ Más adelante, en el código, se aprendió a crear **dataframes**, un marco de d
 
 Además, como se indicó al principio, fue posible crear gráficas con la función `plot`. A continuación, dejo una imagen ejemplo de las gráficas creadas:
 
+![Ejemplo de gráfica de la ad4](https://www.canva.com/design/DAFQHta5zUI/T7bXXzviTw5i7Rr113zP0g/view?utm_content=DAFQHta5zUI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
 [Aquí es posible ver la ad4](https://github.com/nebrijas/2022online-MonicaBallesterosA/blob/a7bee14e94afeccebabb5b62049058a6e9290796/ad4.md)
