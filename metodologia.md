@@ -110,6 +110,6 @@ Más adelante, en el código, se aprendió a crear **dataframes**, un marco de d
 
 Además, como se indicó al principio, fue posible crear gráficas con la función `plot`. A continuación, dejo una imagen ejemplo de las gráficas creadas:
 
-![Ejemplo de gráfica de la ad4](https://nebrijas.github.io/2022online-MonicaBallesterosA/output_60_1.png)
+![Ejemplo de gráfica de la ad4](https://i.imgur.com/NI8oE6w.png)
 
 [Aquí es posible ver la ad4](https://github.com/nebrijas/2022online-MonicaBallesterosA/blob/a7bee14e94afeccebabb5b62049058a6e9290796/ad4.md)
