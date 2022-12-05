@@ -26,7 +26,7 @@ Para lo anterior, accedimos a la configuración de GitHub y acitivamos su opció
 
 Según GitHub esta opción "ejecuta los archivos a través de un proceso de compilación y publica un sitio web". Esta es la opción que logró que a través de la creación de carpetas y archivos .md (extensión de Markdown) hicieramos un reposotorio que cada una de las actividades dirigidas que después, se convertirían en una especie de [sitio web](https://nebrijas.github.io/2022online-MonicaBallesterosA/)
 
-Aquí es posible ver la ad1. 
+[Aquí es posible ver la ad1](https://github.com/nebrijas/2022online-MonicaBallesterosA/blob/a7bee14e94afeccebabb5b62049058a6e9290796/ad1.md)
 
 ## Actividad dirigida 2
 
@@ -40,7 +40,7 @@ El comentario para la ad2 se basó en lo aprendido durante las clases de Periodi
 
 Debido a que el propósito de esta actividad era usar Markdown, he puesto tres asteriscos antes de cada subtítulo con el fin de separar cada una de las ideas de análisis. Estos tres asteriscos se ponen solos después del párrafo deseado y forman una línea horizontal en el momento de la visualización. 
 
-Aquí es posible ver la ad2. 
+[Aquí es posible ver la ad2](https://github.com/nebrijas/2022online-MonicaBallesterosA/blob/a7bee14e94afeccebabb5b62049058a6e9290796/ad2.md)
 
 ## Actividad dirigida 3
 
@@ -55,10 +55,10 @@ El *scraping* con el que se conoció a fondo Jupyter tuvo que ver con el diario 
 Lo que consideré más importante y lo que me llevó más tiempo de investigación fue el descargue de las librerías, las cuales, permiten que el código se desenvuelva correctamente. Además, era el primer paso del *scraping*, por lo que era fundamental instalarlas correctamente a través de Jupyter. **A continuación el cómo se instalaron las librerías:**
 
 
-```python
+~~~
 pip install requests bs4 pandas termcolor
-```
-
+~~~
+~~~
     Requirement already satisfied: requests in c:\users\usuario\anaconda3\lib\site-packages (2.28.1)
     Requirement already satisfied: bs4 in c:\users\usuario\anaconda3\lib\site-packages (0.0.1)
     Requirement already satisfied: pandas in c:\users\usuario\anaconda3\lib\site-packages (1.4.4)
@@ -74,8 +74,8 @@ pip install requests bs4 pandas termcolor
     Requirement already satisfied: six>=1.5 in c:\users\usuario\anaconda3\lib\site-packages (from python-dateutil>=2.8.1->pandas) (1.16.0)
     Requirement already satisfied: soupsieve>1.2 in c:\users\usuario\anaconda3\lib\site-packages (from beautifulsoup4->bs4) (2.3.1)
     Note: you may need to restart the kernel to use updated packages.
-    
-
+~~~
+ 
 Después de lo anterior, fue necesario crear y conocer el concepto de variable. En este caso, a la variable se le llamó resultado, sin embargo, teniendo en cuenta que esta puede cambiar, podía tener el nombre que se quisiera. El paso siguiente fue indicar que se requería de un `(requests.get)`, una función que permite arrastrar los resultados de *El País*. 
 
 Según el portal [W3School](https://www.w3schools.com/python/module_requests.asp), esta función "le permite enviar solicitudes HTTP usando Python". Cuando se hace dicha solicitud HTTP, se devuelve una respuesta determinada que contiene los datos pedidos.
@@ -84,7 +84,7 @@ Finalmente, usamos la librería **Beautiful Soup**, la cual contribuye a extraer
 
 Dicha librería se ejecutó con la función `findAll` para los `h2`, pues así *El País* denomina sus titulares. Este proceso se realizó con la sección internacional, conociendo de antemano que era posible realizar la misma operación con secciones como deportes, salud, entre otras.
 
-Aquí es posible ver la ad3. 
+[Aquí es posible ver la ad3](https://github.com/nebrijas/2022online-MonicaBallesterosA/blob/a7bee14e94afeccebabb5b62049058a6e9290796/ad3.md)
 
 ## Actividad dirigida 4
 
@@ -95,19 +95,19 @@ Esta actividad consistió en conectar desde Jupyter a la **API de datos del COVI
 Teniendo en cuenta que Pandas era la librería principal, el primer paso fue instalarla. Se creó una breve ación para llamarla y después se creó la variable `miurl`. Este último era importante para que Pandas detectara de donde sacar la información que después se solicitaría. A continuación se muestra el cómo instalar la librería:
 
 
-```python
+~~~
 !pip install pandas
-```
-
+~~~
+~~~
     Requirement already satisfied: pandas in c:\users\usuario\anaconda3\lib\site-packages (1.4.4)
     Requirement already satisfied: python-dateutil>=2.8.1 in c:\users\usuario\anaconda3\lib\site-packages (from pandas) (2.8.2)
     Requirement already satisfied: numpy>=1.18.5 in c:\users\usuario\anaconda3\lib\site-packages (from pandas) (1.21.5)
     Requirement already satisfied: pytz>=2020.1 in c:\users\usuario\anaconda3\lib\site-packages (from pandas) (2022.1)
     Requirement already satisfied: six>=1.5 in c:\users\usuario\anaconda3\lib\site-packages (from python-dateutil>=2.8.1->pandas) (1.16.0)
-    
+~~~    
 
 Más adelante, en el código, se aprendió a crear **dataframes**, un marco de datos que sirve para organizar la información. Los dataframes se pueden explorar de diversas maneras con las funciones correctas. Por ejemplo, para ver el inicio de la tabla extraída en la actividad se podía ver con la función `head` y para ver el final, con la función `tail`. 
 
 Además, como se indicó al principio, fue posible crear gráficas con la función `plot`. A continuación, dejo una imagen ejemplo de las gráficas creadas:
 
-Aquí es posible ver la ad4. 
+[Aquí es posible ver la ad4](https://github.com/nebrijas/2022online-MonicaBallesterosA/blob/a7bee14e94afeccebabb5b62049058a6e9290796/ad4.md)
